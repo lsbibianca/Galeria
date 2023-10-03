@@ -1,0 +1,119 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    width: 99vw;
+    height: 100vh;
+    }
+    
+    .div1 { grid-area: 2 / 3 / 4 / 5; }
+    .div2 { grid-area: 2 / 6 / 4 / 8; }
+    .div3 { grid-area: 2 / 9 / 4 / 11; }
+    .div4 { grid-area: 4 / 4 / 6 / 6; }
+    .div5 { grid-area: 4 / 8 / 6 / 10; }
+    .div6 { grid-area: 3 / 1 / 5 / 3; }
+    .div7 { grid-area: 3 / 11 / 5 / 13; }
+body{
+    background-color: rgb(211, 211, 211);
+    overflow: hidden;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Mooli', sans-serif;
+    margin: 30px;
+}
+.parent>div{
+    border: solid cornsilk;
+    border-width: 12px 12px 40px 12px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(104, 96, 96, 0.8) -6px -2px 16px 0px;
+}
+.legenda{
+    transform: translateY(155px);
+    font-size: 14px;
+}
+#ptv{
+    font-size: 10.5px;
+    transform: translateY(155px);
+}
+.div1{
+    background-image: url(fotos/coraline.jpg);
+    background-size: cover;
+    transform: rotate(10deg);
+    transition: 0.5s;
+}
+.div1:hover{
+    transform: rotate(0deg);
+    transform: scale(1.5, 1.5);
+    z-index: 1;
+}
+.div2{
+    background-image: url(fotos/mcr.jpg);
+    background-size: cover;
+    transform: rotate(-13deg);
+    transition: 0.5s;
+}
+.div2:hover{
+    transform: rotate(0deg);
+    transform: scale(1.5, 1.5);
+    z-index: 1;
+}
+.div3{
+    background-image: url(fotos/tristeza.jpg);
+    background-size: cover;
+    background-position: center;
+    transform: rotate(20deg);
+    transition: 0.5s;
+}
+.div3:hover{
+    transform: rotate(0deg);
+    transform: scale(1.5, 1.5);
+    z-index: 1;
+}
+.div4{
+    background-image: url(fotos/ptv.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px -80px;
+    transform: rotate(11deg);
+    transition: 0.5s;
+}
+.div4:hover{
+    transform: rotate(0deg);
+    transform: scale(1.5, 1.5);
+    z-index: 1;
+}
+.div5{
+    background-image: url(fotos/parks.jpg);
+    background-size: cover;
+    transform: rotate(-10deg);
+    transition: 0.5s;
+}
+.div5:hover{
+    transform: rotate(0deg);
+    transform: scale(1.5, 1.5);
+    z-index: 1;
+}
+.div6{
+    background-image: url(fotos/heathers.jpg);
+    background-size: cover;
+    transform: rotate(-10deg);
+    transition: 0.5s;
+}
+.div6:hover{
+    transform: rotate(0deg);
+    transform: scale(1.5, 1.5);
+    z-index: 1;
+}
+.div7{
+    background-image: url(fotos/daisyandthesix.jpg);
+    background-size: cover;
+    transform: rotate(-14deg);
+    transition: 0.5s;
+}
+.div7:hover{
+    transform: rotate(0deg);
+    transform: scale(1.5, 1.5);
+    z-index: 1;
+}
