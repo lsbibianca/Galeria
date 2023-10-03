@@ -6,7 +6,7 @@
     padding: 0;
 }
 .container{
-    height: 90%;
+    height: 100vh;
     width: 100vw;
     background-color: #d1d1d1;
     display: flex;
@@ -21,7 +21,7 @@
     border-radius: 15px;
 }
 .fotos{
-    height: 100%;
+    height: 90%;
     width: calc(100+var(--offsetgaleria));
     animation: slide 8s infinite alternate linear;
     display: grid;
